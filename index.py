@@ -3,7 +3,9 @@ import fileinput
 
 
 def children_tree_mapping(license_num_list):
-    """ As metioned in the above problem, the condition for the tree is
+    """ Function to return mapping between childern and metadata
+
+    As metioned in the problem, the condition for the tree is
 
     A header, which is always exactly two numbers:
         1. The quantity of child nodes.
@@ -43,7 +45,7 @@ def children_tree_mapping(license_num_list):
 
 def sum_of_metadata(children_tree_mapping_list):
     """
-    Sum of all metadata for each children
+    Function return sum of all metadata for each children
 
     Parameters
     ----------
