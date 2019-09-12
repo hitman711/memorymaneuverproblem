@@ -50,8 +50,8 @@ What is the sum of all metadata entries?
 
 ## Installation
 
-No new external dependancies required to run this code. Some python pep8 and linter
-dependancies added in requirments.txt file. To install the requirment
+No new external dependancies required to run this code. Some python pep8, linter
+and pytest dependancies added in requirments.txt file. To install the requirment
 
     `pip3 install -r requirments.txt`
 
@@ -60,6 +60,10 @@ dependancies added in requirments.txt file. To install the requirment
 Use following code to run python code snippet
 
     `python3 index.py`
+
+To execute python test case
+
+    `pytest test.py -v`
 
 ## File description
 
@@ -74,3 +78,7 @@ Use following code to run python code snippet
 3. requirements.txt
 
     list of dependancies.
+
+4. test.py
+
+    index.py function test cases.

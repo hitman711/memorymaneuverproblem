@@ -61,15 +61,17 @@ def sum_of_metadata(children_tree_mapping_list):
     return sum(metadata) + sum(sum_of_metadata(i) for i in children)
 
 
-# License number input
-license_num_list = map(
-    int,
-    next(fileinput.input(os.getcwd() + '/license.txt')).split()
-)
-
-print(
-    "Sum of metadata entries -> ",
-    sum_of_metadata(
-        children_tree_mapping(license_num_list)
+if __name__ == '__main__':
+    """ Initialize code snippet
+    """
+    # License number input
+    license_num_list = map(
+        int,
+        next(fileinput.input(os.getcwd() + '/license.txt')).split()
     )
-)
+    print(
+        "Sum of metadata entries -> ",
+        sum_of_metadata(
+            children_tree_mapping(license_num_list)
+        )
+    )
