@@ -34,6 +34,8 @@ def children_tree_mapping(license_num_list):
     # Iterate to get list of metadata
     metadata = [
         next(license_num_list) for i in range(num_of_metadata)]
+    # Enable below code to print children and metadata mapping for
+    # each node
     # print(num_of_children, num_of_metadata)
     # print(children, metadata)
     return (children, metadata)

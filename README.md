@@ -44,24 +44,24 @@ metadata entries. In this example, that sum is 1+1+2+10+11+12+2+99=138.
 
 What is the sum of all metadata entries?
 
-# Requirements
+## Requirements
 
 *   python >= 3.5
 
-# Installation
+## Installation
 
 No new external dependancies required to run this code. Some python pep8 and linter
 dependancies added in requirments.txt file. To install the requirment
 
     `pip3 install -r requirments.txt`
 
-# Execute code
+## Execute code
 
 Use following code to run python code snippet
 
     `python3 index.py`
 
-# File description
+## File description
 
 1. license.txt
 
